@@ -37,7 +37,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        ../configure --target-list=ia64-softmmu --disable-werror
+        ../configure --target-list=help --disable-werror
         make -j4
 
     - name: Upload Artifact
