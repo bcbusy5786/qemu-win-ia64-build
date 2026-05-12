@@ -37,7 +37,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        ../configure --disable-werror
+        ../configure --disable-werror --disable-guest-agent --target-list=x86_64-softmmu
         make
 
     - name: Upload Artifact
