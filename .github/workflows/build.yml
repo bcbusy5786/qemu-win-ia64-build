@@ -37,7 +37,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        ../configure --target-list=help --disable-werror
+        ../configure 
         make -j4
 
     - name: Upload Artifact
