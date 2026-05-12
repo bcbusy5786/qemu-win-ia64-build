@@ -38,7 +38,7 @@ jobs:
         mkdir build
         cd build
         ../configure 
-        make -j4
+        make
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
